@@ -335,9 +335,9 @@ ConvertToInt ENDP
 ; Converts integer to string and displays it. Algorithm reverses order of integer when
 ;	converting to string, and thus ConvertToInt is called before the algorithm is run 
 ;	again in order to get the correct string. For example, if the integer is 100, it will be
-;	converted to the string ‘001’. This will then be converted back to integer, resulting in
+;	converted to the string Â‘001Â’. This will then be converted back to integer, resulting in
 ;	1. The leading zeros are counted and then reinserted in the proper place once 1 is
-;	converted back into a string, resulting in the string ‘100’. Minus signs are also recorded
+;	converted back into a string, resulting in the string Â‘100Â’. Minus signs are also recorded
 ;	and stored for later insertion
 ;
 ; Preconditions: String writing destination initialized
